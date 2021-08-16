@@ -1,9 +1,9 @@
 *{
-    font-family: 'Josefin Sans', sans-serif ;
+    font-family: "Comic Sans MS",ComicSans, monospace ;
 
 }
 html,body{
-    font-weight: 400;
+    font-weight: normal;
     line-height: 24px;
     color: #ffffff;
     background-color: #14182a;
@@ -28,7 +28,8 @@ html,body{
 }
 .logo{
     float: left;
-    margin-bottom:100px;
+    font-size: 24px;
+    line-height: 28px;
 }
 .ms_top_trend{
     float: right;
@@ -156,4 +157,8 @@ hr{
 .third{
     float: left;
     width: 33.2%;
+}
+.third p,span,.third h3{
+    margin-right: 10px;
+    font-family: Arial,Arial,monospace;
 }
